@@ -15,7 +15,7 @@ class HikingJournalApplication : Application() {
         Hotwire.loadPathConfiguration(
             context = this,
             location = PathConfiguration.Location(
-                remoteFileUrl = "$baseURL/configurations/android_v1.json"
+                remoteFileUrl = "$baseURL/hotwire/android/configurations/v1.json"
             )
         )
 
